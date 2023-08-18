@@ -182,6 +182,11 @@ config TARGET_SMARC_RZG2L
 	help
           Support for Renesas RZ/G2L Dev Platform
 
+config TARGET_RENESAS_RZG2L_EVK
+	bool "Renesas RZ/G2L Evk board"
+	help
+          Support for Renesas RZ/G2L Dev Platform
+
 config TARGET_RZV2L_DEV
 	bool "RZ/V2L Dev board"
 	help
@@ -241,6 +246,7 @@ source "board/renesas/rzg2l-dev/Kconfig"
 source "board/renesas/rzv2l-dev/Kconfig"
 source "board/renesas/rzg2lc-dev/Kconfig"
 source "board/renesas/rzg2ul-dev/Kconfig"
+source "board/onekiwi/renesas-rzg2l-evk/Kconfig"
 
 config MULTI_DTB_FIT_UNCOMPRESS_SZ
 	default 0x80000 if TARGET_HIHOPE_RZG2

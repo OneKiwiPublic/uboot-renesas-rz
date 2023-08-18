@@ -1,0 +1,15 @@
+if TARGET_RENESAS_RZG2L_EVK
+
+config SYS_SOC
+	default "rmobile"
+
+config SYS_BOARD
+	default "renesas-rzg2l-evk"
+
+config SYS_VENDOR
+	default "onekiwi"
+
+config SYS_CONFIG_NAME
+	default "renesas-rzg2l-evk"
+
+endif
