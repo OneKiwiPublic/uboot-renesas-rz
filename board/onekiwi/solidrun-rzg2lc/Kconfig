@@ -1,0 +1,15 @@
+if TARGET_SOLIDRUN_RZG2LC
+
+config SYS_SOC
+	default "rmobile"
+
+config SYS_BOARD
+	default "solidrun-rzg2lc"
+
+config SYS_VENDOR
+	default "onekiwi"
+
+config SYS_CONFIG_NAME
+	default "solidrun-rzg2lc"
+
+endif

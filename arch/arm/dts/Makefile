@@ -932,6 +932,7 @@ dtb-$(CONFIG_RCAR_GEN3) += \
 	rzg2ul-type1-ddr3l-dev.dtb \
 	rzg2ul-type2-dev.dtb \
 	smarc-rzg2ul.dtb \
+	solidrun-rzg2lc.dtb \
 	renesas-rzg2l-evk.dtb 
 
 ifdef CONFIG_RCAR_GEN3
